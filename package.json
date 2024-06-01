@@ -1,4 +1,15 @@
 {
+  "name": "ice",
+  "version": "1.0.0",
+  "description": "This is the dev channel for this project make it a default branch to push the code into.\r The code will be in development and testing phase unless the moderators approve some request to be put onto production.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "production": "npx tailwindcss -i ./src/input.css -o ./src/output.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.4.3"
   }

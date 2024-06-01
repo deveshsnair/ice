@@ -1,13 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./contents/*.{html,js}"],
+  content: ['./public/*.{html,js}',
+            './**/*.{html,js}'],
   theme: {
-    extend: {
-      fontFamily:{
-        'festive':["Festive",'cursive'],
-        'oswald':["Oswald",'sans-serif'],
-      },
-    },
+    extend: {},
   },
   plugins: [],
 }
