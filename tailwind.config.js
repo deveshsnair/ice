@@ -9,11 +9,10 @@ module.exports = {
           '100': "#edeed3",
           '50': "#f8f8ee",
         },
-      fontFamily: {
-        oswald: ['Oswald'],
-      }
     },
   },
+  fontFamily: {
+    Oswald: ["Oswald, sans-serif"]},
 },
   plugins: [],
 }
